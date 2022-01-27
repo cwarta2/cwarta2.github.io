@@ -149,23 +149,6 @@
 		border-radius: 6px;
 	}
 
-	select {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-o-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		background: white;
-		color: #555555;
-		border: none;
-		display: block;
-		outline: 0;
-		padding: 1em 1em;
-		text-decoration: none;
-		width: 100%;
-		border-radius: 6px;
-	}
-
 		input[type="text"]:focus,
 		input[type="password"]:focus,
 		input[type="email"]:focus,
@@ -209,73 +192,59 @@
 		color: rgba(85, 85, 85, 0.5) !important;
 	}
 
-	/* Image */
+/* Image */
 
 	.image {
 		border: 0;
 		position: relative;
 	}
 
-	.image.fit {
-		display: block;
-	}
+		.image.fit {
+			display: block;
+		}
 
-	.image.fit img {
-		display: block;
-		width: 100%;
-		top: 100px;
-	}
+			.image.fit img {
+				display: block;
+				width: 100%;
+				top: 100px;
+			}
 
-	.image.feature {
-		display: block;
-		margin: 0 0 2em 0;
-	}
+		.image.feature {
+			display: block;
+			margin: 0 0 2em 0;
+		}
 
-	.image.feature img {
-		display: block;
-		width: 100%;
-		top: 100px;
-	}
+			.image.feature img {
+				display: block;
+				width: 100%;
+				top: 100px;
+			}
 
-	.image.featured {
-		position: static;
-		display: block;
-		margin: 0;
-	}
+		.image.featured {
+			position: static;
+			display: block;
+			margin: 0;
+		}
 
-	.image.featured img {
-		display: block;
-		width: 100%;
-		top: 100px;
-	}
+			.image.featured img {
+				display: block;
+				width: 100%;
+				top: 100px;
+			}
 
-	.image.enlarged {
-		position: static;
-		display: block;
-		margin: auto;
-	}
+		.image.enlarged {
+			position: static;
+			display: block;
+			margin: auto;
+		}
 
-	.image.enlarged img {
-		display: block;
-		width: 70%;
-		top: 100px;
-		/*padding-left: 5%;*/
-		margin: auto;
-	}
-
-	.image.checkout {
-		position: static;
-		display: block;
-		margin: auto;
-	}
-
-	.image.checkout img {
-		display: block;
-		width: 30%;
-		top: 100px;
-		/*padding-left: 5%;*/
-		margin: auto;
-	}
+			.image.enlarged img {
+				display: block;
+				width: 70%;
+				top: 100px;
+				/*padding-left: 5%;*/
+				margin: auto;
+			}
 
 /* Icon */
 
@@ -677,23 +646,6 @@
 		border-radius: 0px 0px 6px 6px;
 	}
 
-	.boxcheckout {
-		padding: 3em 0em;
-		background: #fff;
-		text-align: center;
-		display: block;
-		width: 30%;
-		top: 100px;
-		/*padding-left: 5%;*/
-		margin: auto;
-
-	}
-
-/*	display: block;
-		width: 30%;
-		top: 100px;
-		margin: auto;*/
-
 /* Misc */
 
 	.largebox {
@@ -710,11 +662,11 @@
 
 	.billing {
 		display: block;
-				width: 60%;
+				width: 100%;
 				top: 100px;
-  		margin: 0 auto;
+  		/*margin: 0 auto;*/
 		background: rgba(200, 200, 200, 0.8);
-		padding: 3em 8em;
+		padding: 3em 2em;
 		color: rgba(80, 80, 80);
 		/*border-radius: 0px 0px 6px 6px;*/
 	}
